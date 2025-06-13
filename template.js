@@ -16,7 +16,8 @@ const sendHttpRequest = require('sendHttpRequest');
 const setCookie = require('setCookie');
 const sha256Sync = require('sha256Sync');
 
-/**********************************************************************************************/
+/*==============================================================================
+==============================================================================*/
 
 const traceId = getRequestHeader('trace-id');
 
@@ -50,8 +51,9 @@ if (useOptimisticScenario) {
   return data.gtmOnSuccess();
 }
 
-/**********************************************************************************************/
-// Vendor related functions
+/*==============================================================================
+  Vendor related functions
+==============================================================================*/
 
 function handlePageViewEvent(data, eventData) {
   const url = eventData.page_location || getRequestHeader('referer');
@@ -68,14 +70,16 @@ function handlePageViewEvent(data, eventData) {
 
   const urlSearchParams = parseUrl(url).searchParams;
 
-  // [TO DO] - the web version saves the 'device' URL parameter into the 'tduid' cookie as fallback
-  // If not 'tduid' URL parameter is present. Should we do this?
-  const clickIdValue = urlSearchParams[data.clickIdParameterName || 'tduid'];
-  if (clickIdValue) {
-    setCookie('tduid', clickIdValue, cookieOptions, false);
+  const tduicClickIdValue =
+    urlSearchParams[data.tduidClickIdParameterName || 'tduid'] || urlSearchParams.deviceid;
+  if (tduicClickIdValue) {
+    setCookie('tduid', tduicClickIdValue, cookieOptions, false);
   }
 
-  // [TO DO] - Wait support reply and check if there are more cookies to save (e.g. the 'tdclid_sn' parameter and cookie)
+  const tdclidClickIdValue = urlSearchParams[data.tdclidClickIdParameterName || 'tdclid_sn'];
+  if (tdclidClickIdValue) {
+    setCookie('tdclid_sn', tdclidClickIdValue, cookieOptions, false);
+  }
 
   return data.gtmOnSuccess();
 }
@@ -122,7 +126,8 @@ function handleConversionEvent(data, eventData) {
 
 function mapRequestData(data, eventData) {
   let requestData = {
-    organization: data.organizationId
+    organization: data.organizationId,
+    convtagtid: '11'
   };
 
   if (data.type === 'conversion') {
@@ -151,7 +156,12 @@ function addConversionData(data, eventData, requestData) {
   const tduidClickId = data.hasOwnProperty('tduidClickId')
     ? data.tduidClickId
     : getCookieValues('tduid')[0];
-  requestData.tduid = tduidClickId || '';
+  if (tduidClickId) requestData.tduid = tduidClickId;
+
+  const tdclidClickId = data.hasOwnProperty('tdclidClickId')
+    ? data.tdclidClickId
+    : getCookieValues('tdclid_sn')[0];
+  if (tdclidClickId) requestData.tdclid = tdclidClickId;
 
   const currency = data.hasOwnProperty('currency')
     ? data.currency
@@ -167,16 +177,13 @@ function addConversionData(data, eventData, requestData) {
   const validOn = data.validOn;
   if (validOn && validateValidOn(validOn)) requestData.validOn = validOn;
 
-  const checksum = data.checksum;
-  if (checksum) requestData.checksum = checksum;
-
   return requestData;
 }
 
 function addProductsData(data, eventData, requestData) {
   let products = [];
   if (data.hasOwnProperty('products')) products = data.products;
-  else if (eventData.items && eventData.items[0]) {
+  else if (getType(eventData.items) === 'array' && eventData.items.length) {
     eventData.items.forEach((item) => {
       const product = {};
       if (item.item_id) product.item_id = makeString(item.item_id);
@@ -286,7 +293,7 @@ function validateValidOn(value) {
 }
 
 function areThereRequiredParametersMissing(requestData) {
-  const requiredParametereByEventType = {
+  const requiredParametersByEventType = {
     userData: ['organization', 'exttype'],
     conversion: [
       'organization',
@@ -294,12 +301,42 @@ function areThereRequiredParametersMissing(requestData) {
       data.conversionType === 'leads' ? 'leadnumber' : 'ordernumber'
     ]
   };
-  if (data.conversionType === 'sales' && !data.enablePLT) {
-    requiredParametereByEventType.conversion.push('ordervalue');
+  if (data.conversionType === 'sales') {
+    requiredParametersByEventType.conversion.push('currency');
+
+    if (!data.enablePLT) requiredParametersByEventType.conversion.push('ordervalue');
+    else requiredParametersByEventType.conversion.push('basket');
   }
 
-  const requiredParameters = requiredParametereByEventType[data.type];
-  const anyMissing = requiredParameters.some((p) => !isValidValue(requestData[p]));
+  const requiredParameters = requiredParametersByEventType[data.type];
+  const anyMissing = requiredParameters.some((p) => {
+    const value = requestData[p];
+    if (!isValidValue(value)) return true;
+
+    if (p === 'basket') {
+      if (getType(value) !== 'array' || value.length === 0) return true;
+
+      const anyProductMissingAParameter = value.some((product) => {
+        const requiredProductParameters = [
+          'item_id',
+          'item_name',
+          'item_group_id',
+          'price',
+          'quantity'
+        ];
+
+        const anyProductParameterMissing = requiredProductParameters.some(
+          (productParameter) => !isValidValue(product[productParameter])
+        );
+
+        if (anyProductParameterMissing) return true;
+        return false;
+      });
+
+      if (anyProductMissingAParameter) return true;
+    }
+  });
+
   if (anyMissing) return requiredParameters;
 }
 
@@ -376,12 +413,10 @@ function getRequestUrlParameters(data, requestData) {
     organization: 'o',
     program: 'p',
     ordernumber: 'ordnum',
-    currency: 'curr',
-    checksum: 'chksum'
+    currency: 'curr'
   };
   const unsupportedParametersInPLT = {
-    validOn: true,
-    orderValue: true
+    validOn: true
   };
   const formatPLTBasket = (product) => {
     // prettier-ignore
@@ -431,8 +466,9 @@ function getRequestUrlParameters(data, requestData) {
   return requestParametersList.join('&');
 }
 
-/**********************************************************************************************/
-// Helpers
+/*==============================================================================
+  Helpers
+==============================================================================*/
 
 function sanitizeValueForPLT(value) {
   return (value || '')

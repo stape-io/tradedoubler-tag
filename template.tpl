@@ -21,7 +21,6 @@ ___INFO___
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
-    "thumbnail": "data:image/jpeg;base64,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\u003d\u003d"
   },
   "description": "Tradedoubler server-to-server (S2S) conversion tracking.",
   "containerContexts": [
@@ -53,7 +52,7 @@ ___TEMPLATE_PARAMETERS___
     ],
     "simpleValueType": true,
     "defaultValue": "pageView",
-    "help": "\u003cb\u003ePage View\u003c/b\u003e - Stores the \u003ci\u003e{tduid}\u003c/i\u003e URL parameter value inside the \u003ci\u003etduid\u003c/i\u003e cookie.\n\u003cbr/\u003e\nFor app conversions, you need to store and retrieve the Click ID using some other method, such as:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#how-to-use-the-stape-store-writer-tag\"\u003eStape Store Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#stape-store-lookup-variable\"\u003eStape Store Lookup variable\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/blog/write-data-to-firestore-from-server-google-tag-manager\"\u003eFirestore Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/solutions/firestore-restore-variable\"\u003eFirestore Restore ariable\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr/\u003e\n\u003cbr/\u003e\n\u003cb\u003eConversion\u003c/b\u003e - Sends a postback with conversion data to Tradedoubler.\n\u003cbr/\u003e\n\u003cbr/\u003e\n\u003cb\u003eUser Data\u003c/b\u003e - Sends a request containing User Data (email or User ID). You can use this event if you don\u0027t have User Data available when the conversion happens. \u003ca href\u003d\"https://dev.tradedoubler.com/crossdevice/advertiser/#API\"\u003eLearn more\u003c/a\u003e."
+    "help": "\u003cb\u003ePage View\u003c/b\u003e - Stores the \u003ci\u003e{tduid}\u003c/i\u003e or \u003ci\u003edeviceid\u003c/i\u003e URL parameters value inside the \u003ci\u003etduid\u003c/i\u003e cookie; and the \u003ci\u003e{tdclid_sn}\u003c/i\u003e URL parameter value inside the \u003ci\u003etdclid_sn\u003c/i\u003e cookie.\n\u003cbr/\u003e\nFor app conversions, you need to store and retrieve the Click ID using some other method, such as:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#how-to-use-the-stape-store-writer-tag\"\u003eStape Store Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#stape-store-lookup-variable\"\u003eStape Store Lookup variable\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/blog/write-data-to-firestore-from-server-google-tag-manager\"\u003eFirestore Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/solutions/firestore-restore-variable\"\u003eFirestore Restore ariable\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr/\u003e\n\u003cbr/\u003e\n\u003cb\u003eConversion\u003c/b\u003e - Sends a postback with conversion data to Tradedoubler.\n\u003cbr/\u003e\n\u003cbr/\u003e\n\u003cb\u003eUser Data\u003c/b\u003e - Sends a request containing User Data (email or User ID). You can use this event if you don\u0027t have User Data available when the conversion happens. \u003ca href\u003d\"https://dev.tradedoubler.com/crossdevice/advertiser/#API\"\u003eLearn more\u003c/a\u003e."
   },
   {
     "type": "TEXT",
@@ -121,7 +120,7 @@ ___TEMPLATE_PARAMETERS___
     "subParams": [
       {
         "type": "TEXT",
-        "name": "clickIdParameterName",
+        "name": "tduidClickIdParameterName",
         "displayName": "Name of the URL parameter for the Click ID",
         "simpleValueType": true,
         "valueValidators": [
@@ -130,8 +129,22 @@ ___TEMPLATE_PARAMETERS___
           }
         ],
         "defaultValue": "tduid",
-        "help": "Defaults to the \u003ci\u003etduid\u003c/i\u003e URL parameter.\u003cbr/\u003e You usually don’t need to change this, only modify it if you have a custom implementation.",
+        "help": "URL Click ID that contains rich information about the click.\n\u003cbr\u003e\u003cbr\u003e\nDefaults to the \u003ci\u003etduid\u003c/i\u003e URL parameter.\n\u003cbr\u003e\nYou usually don’t need to change this, only modify it if you have a custom implementation.",
         "valueHint": "tduid"
+      },
+      {
+        "type": "TEXT",
+        "name": "tdclidClickIdParameterName",
+        "displayName": "Name of the URL parameter for the Click ID (cashback and loyalty)",
+        "simpleValueType": true,
+        "valueValidators": [
+          {
+            "type": "NON_EMPTY"
+          }
+        ],
+        "defaultValue": "tdclid_sn",
+        "help": "URL Click ID used by cashback and loyalty publishers.\n\u003cbr\u003e\u003cbr\u003e\nDefaults to the \u003ci\u003etdclid_sn\u003c/i\u003e or \u003ci\u003edeviceid\u003c/i\u003e URL parameters.\n\u003cbr\u003e\nYou usually don’t need to change this, only modify it if you have a custom implementation.",
+        "valueHint": "tdclid_sn"
       },
       {
         "type": "GROUP",
@@ -144,7 +157,7 @@ ___TEMPLATE_PARAMETERS___
             "name": "cookieExpiration",
             "displayName": "Cookie Expiration",
             "simpleValueType": true,
-            "help": "The number of days Click ID cookie will live.",
+            "help": "The number of days Click ID cookie will live.\n\u003cbr\u003e\u003cbr\u003e\nSet this to, at least, the agreed cookie duration on your program settings.",
             "valueUnit": "days",
             "defaultValue": 365,
             "valueHint": "365",
@@ -318,7 +331,14 @@ ___TEMPLATE_PARAMETERS___
         "name": "tduidClickId",
         "displayName": "tduid Value (Click ID)",
         "simpleValueType": true,
-        "help": "Optional, but highly recommended.\n\u003cbr\u003e\u003cbr\u003e\nIf left empty, this value will be automatically taken from the \u003ci\u003etduid\u003c/i\u003e cookie, which is set on pages containing the \u003ci\u003etduid\u003c/i\u003e URL parameter. \u003cbr/\u003eOnly modify it if you have a custom implementation.\n\u003cbr/\u003e\u003cbr/\u003e\nFor app conversions, you need to store and retrieve the Click ID using some other method, such as:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#how-to-use-the-stape-store-writer-tag\"\u003eStape Store Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#stape-store-lookup-variable\"\u003eStape Store Lookup variable\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/blog/write-data-to-firestore-from-server-google-tag-manager\"\u003eFirestore Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/solutions/firestore-restore-variable\"\u003eFirestore Restore ariable\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+        "help": "If left empty, this value will be automatically taken from the \u003ci\u003etduid\u003c/i\u003e cookie, which is set on pages containing the \u003ci\u003etduid\u003c/i\u003e or \u003ci\u003edeviceid\u003c/i\u003e URL parameters. \u003cbr/\u003eOnly modify it if you have a custom implementation.\n\u003cbr/\u003e\u003cbr/\u003e\nFor app conversions, you need to store and retrieve the Click ID using some other method, such as:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#how-to-use-the-stape-store-writer-tag\"\u003eStape Store Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#stape-store-lookup-variable\"\u003eStape Store Lookup variable\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/blog/write-data-to-firestore-from-server-google-tag-manager\"\u003eFirestore Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/solutions/firestore-restore-variable\"\u003eFirestore Restore ariable\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+      },
+      {
+        "type": "TEXT",
+        "name": "tdclidClickId",
+        "displayName": "tdclid_sn Value (Click ID for cashback and loyalty publishers)",
+        "simpleValueType": true,
+        "help": "If left empty, this value will be automatically taken from the \u003ci\u003etdclid_sn\u003c/i\u003e cookie, which is set on pages containing the \u003ci\u003etdclid_sn\u003c/i\u003e URL parameter. \u003cbr/\u003eOnly modify it if you have a custom implementation.\n\u003cbr/\u003e\u003cbr/\u003e\nFor app conversions, you need to store and retrieve the Click ID using some other method, such as:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#how-to-use-the-stape-store-writer-tag\"\u003eStape Store Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#stape-store-lookup-variable\"\u003eStape Store Lookup variable\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/blog/write-data-to-firestore-from-server-google-tag-manager\"\u003eFirestore Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/solutions/firestore-restore-variable\"\u003eFirestore Restore ariable\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e"
       },
       {
         "type": "TEXT",
@@ -339,7 +359,7 @@ ___TEMPLATE_PARAMETERS___
         "name": "currency",
         "displayName": "Currency",
         "simpleValueType": true,
-        "help": "Optional.\n\u003cbr\u003e\u003cbr\u003e\nIf you work with multiple currencies you can state the currency used and Tradedoubler will convert the order value to your program\u0027s currency. The value must be a recognised currency code as per \u003ca href\u003d\"http://en.wikipedia.org/wiki/ISO_4217\"\u003eISO-4217 standard\u003c/a\u003e (e.g. EUR, USD, etc.).\t \n\u003cbr\u003e\u003cbr\u003e\nDefault: \u003ci\u003eeventData.currency\u003c/i\u003e \u003e \u003ci\u003eeventData.currencyCode\u003c/i\u003e."
+        "help": "Required for Sales.\n\u003cbr\u003e\u003cbr\u003e\nIf you work with multiple currencies you can state the currency used and Tradedoubler will convert the order value to your program\u0027s currency. The value must be a recognised currency code as per \u003ca href\u003d\"http://en.wikipedia.org/wiki/ISO_4217\"\u003eISO-4217 standard\u003c/a\u003e (e.g. EUR, USD, etc.).\t \n\u003cbr\u003e\u003cbr\u003e\nDefault: \u003ci\u003eeventData.currency\u003c/i\u003e \u003e \u003ci\u003eeventData.currencyCode\u003c/i\u003e."
       },
       {
         "type": "TEXT",
@@ -397,13 +417,6 @@ ___TEMPLATE_PARAMETERS___
         "displayName": "Valid On",
         "simpleValueType": true,
         "help": "Optional.\n\u003cbr\u003e\u003cbr\u003e\nThe value must use the format YYYY-MM-DD (as per \u003ca href\u003d\"https://en.wikipedia.org/wiki/ISO_8601\"\u003eISO-8601 standard\u003c/a\u003e). See \u003ca href\u003d\"https://dev.tradedoubler.com/tracking/advertiser/#Features_ValidOn\"\u003eValid On\u003c/a\u003e for more information."
-      },
-      {
-        "type": "TEXT",
-        "name": "checksum",
-        "displayName": "Checksum",
-        "simpleValueType": true,
-        "help": "Optional.\n\u003cbr\u003e\u003cbr\u003e\nThis is part of Tradedoubler\u0027s fraud protection measures. Your Tradedoubler contact will explain how it should be implemented."
       }
     ],
     "enablingConditions": [
@@ -581,7 +594,8 @@ const sendHttpRequest = require('sendHttpRequest');
 const setCookie = require('setCookie');
 const sha256Sync = require('sha256Sync');
 
-/**********************************************************************************************/
+/*==============================================================================
+==============================================================================*/
 
 const traceId = getRequestHeader('trace-id');
 
@@ -615,8 +629,9 @@ if (useOptimisticScenario) {
   return data.gtmOnSuccess();
 }
 
-/**********************************************************************************************/
-// Vendor related functions
+/*==============================================================================
+  Vendor related functions
+==============================================================================*/
 
 function handlePageViewEvent(data, eventData) {
   const url = eventData.page_location || getRequestHeader('referer');
@@ -633,14 +648,16 @@ function handlePageViewEvent(data, eventData) {
 
   const urlSearchParams = parseUrl(url).searchParams;
 
-  // [TO DO] - the web version saves the 'device' URL parameter into the 'tduid' cookie as fallback
-  // If not 'tduid' URL parameter is present. Should we do this?
-  const clickIdValue = urlSearchParams[data.clickIdParameterName || 'tduid'];
-  if (clickIdValue) {
-    setCookie('tduid', clickIdValue, cookieOptions, false);
+  const tduicClickIdValue =
+    urlSearchParams[data.tduidClickIdParameterName || 'tduid'] || urlSearchParams.deviceid;
+  if (tduicClickIdValue) {
+    setCookie('tduid', tduicClickIdValue, cookieOptions, false);
   }
 
-  // [TO DO] - Wait support reply and check if there are more cookies to save (e.g. the 'tdclid_sn' parameter and cookie)
+  const tdclidClickIdValue = urlSearchParams[data.tdclidClickIdParameterName || 'tdclid_sn'];
+  if (tdclidClickIdValue) {
+    setCookie('tdclid_sn', tdclidClickIdValue, cookieOptions, false);
+  }
 
   return data.gtmOnSuccess();
 }
@@ -687,7 +704,8 @@ function handleConversionEvent(data, eventData) {
 
 function mapRequestData(data, eventData) {
   let requestData = {
-    organization: data.organizationId
+    organization: data.organizationId,
+    convtagtid: '11'
   };
 
   if (data.type === 'conversion') {
@@ -716,7 +734,12 @@ function addConversionData(data, eventData, requestData) {
   const tduidClickId = data.hasOwnProperty('tduidClickId')
     ? data.tduidClickId
     : getCookieValues('tduid')[0];
-  requestData.tduid = tduidClickId || '';
+  if (tduidClickId) requestData.tduid = tduidClickId;
+
+  const tdclidClickId = data.hasOwnProperty('tdclidClickId')
+    ? data.tdclidClickId
+    : getCookieValues('tdclid_sn')[0];
+  if (tdclidClickId) requestData.tdclid = tdclidClickId;
 
   const currency = data.hasOwnProperty('currency')
     ? data.currency
@@ -732,16 +755,13 @@ function addConversionData(data, eventData, requestData) {
   const validOn = data.validOn;
   if (validOn && validateValidOn(validOn)) requestData.validOn = validOn;
 
-  const checksum = data.checksum;
-  if (checksum) requestData.checksum = checksum;
-
   return requestData;
 }
 
 function addProductsData(data, eventData, requestData) {
   let products = [];
   if (data.hasOwnProperty('products')) products = data.products;
-  else if (eventData.items && eventData.items[0]) {
+  else if (getType(eventData.items) === 'array' && eventData.items.length) {
     eventData.items.forEach((item) => {
       const product = {};
       if (item.item_id) product.item_id = makeString(item.item_id);
@@ -851,7 +871,7 @@ function validateValidOn(value) {
 }
 
 function areThereRequiredParametersMissing(requestData) {
-  const requiredParametereByEventType = {
+  const requiredParametersByEventType = {
     userData: ['organization', 'exttype'],
     conversion: [
       'organization',
@@ -859,12 +879,42 @@ function areThereRequiredParametersMissing(requestData) {
       data.conversionType === 'leads' ? 'leadnumber' : 'ordernumber'
     ]
   };
-  if (data.conversionType === 'sales' && !data.enablePLT) {
-    requiredParametereByEventType.conversion.push('ordervalue');
+  if (data.conversionType === 'sales') {
+    requiredParametersByEventType.conversion.push('currency');
+
+    if (!data.enablePLT) requiredParametersByEventType.conversion.push('ordervalue');
+    else requiredParametersByEventType.conversion.push('basket');
   }
 
-  const requiredParameters = requiredParametereByEventType[data.type];
-  const anyMissing = requiredParameters.some((p) => !isValidValue(requestData[p]));
+  const requiredParameters = requiredParametersByEventType[data.type];
+  const anyMissing = requiredParameters.some((p) => {
+    const value = requestData[p];
+    if (!isValidValue(value)) return true;
+
+    if (p === 'basket') {
+      if (getType(value) !== 'array' || value.length === 0) return true;
+
+      const anyProductMissingAParameter = value.some((product) => {
+        const requiredProductParameters = [
+          'item_id',
+          'item_name',
+          'item_group_id',
+          'price',
+          'quantity'
+        ];
+
+        const anyProductParameterMissing = requiredProductParameters.some(
+          (productParameter) => !isValidValue(product[productParameter])
+        );
+
+        if (anyProductParameterMissing) return true;
+        return false;
+      });
+
+      if (anyProductMissingAParameter) return true;
+    }
+  });
+
   if (anyMissing) return requiredParameters;
 }
 
@@ -941,12 +991,10 @@ function getRequestUrlParameters(data, requestData) {
     organization: 'o',
     program: 'p',
     ordernumber: 'ordnum',
-    currency: 'curr',
-    checksum: 'chksum'
+    currency: 'curr'
   };
   const unsupportedParametersInPLT = {
-    validOn: true,
-    orderValue: true
+    validOn: true
   };
   const formatPLTBasket = (product) => {
     // prettier-ignore
@@ -996,8 +1044,9 @@ function getRequestUrlParameters(data, requestData) {
   return requestParametersList.join('&');
 }
 
-/**********************************************************************************************/
-// Helpers
+/*==============================================================================
+  Helpers
+==============================================================================*/
 
 function sanitizeValueForPLT(value) {
   return (value || '')
@@ -1238,6 +1287,10 @@ ___SERVER_PERMISSIONS___
               {
                 "type": 1,
                 "string": "tduid"
+              },
+              {
+                "type": 1,
+                "string": "tdclid_sn"
               }
             ]
           }
@@ -1320,6 +1373,53 @@ ___SERVER_PERMISSIONS___
                   {
                     "type": 1,
                     "string": "tduid"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "any"
+                  },
+                  {
+                    "type": 1,
+                    "string": "any"
+                  }
+                ]
+              },
+              {
+                "type": 3,
+                "mapKey": [
+                  {
+                    "type": 1,
+                    "string": "name"
+                  },
+                  {
+                    "type": 1,
+                    "string": "domain"
+                  },
+                  {
+                    "type": 1,
+                    "string": "path"
+                  },
+                  {
+                    "type": 1,
+                    "string": "secure"
+                  },
+                  {
+                    "type": 1,
+                    "string": "session"
+                  }
+                ],
+                "mapValue": [
+                  {
+                    "type": 1,
+                    "string": "tdclid_sn"
                   },
                   {
                     "type": 1,
@@ -1474,7 +1574,8 @@ ___SERVER_PERMISSIONS___
 ___TESTS___
 
 scenarios:
-- name: PageView - Cookies are NOT set if URL doesn't contain the Click ID parameter
+- name: PageView - Click ID cookies (tduid and tdclid_sn) are NOT set if URL doesn't
+    contain the Click IDs parameters
   code: |
     setAllMockDataByEventType('pageView');
 
@@ -1487,7 +1588,7 @@ scenarios:
     assertApi('gtmOnSuccess').wasCalled();
     assertApi('gtmOnFailure').wasNotCalled();
     assertApi('setCookie').wasNotCalled();
-- name: PageView - Click ID cookie is set if URL contains it
+- name: PageView - tduid Click ID cookie is set if URL contains it
   code: |
     setAllMockDataByEventType('pageView');
 
@@ -1508,8 +1609,30 @@ scenarios:
       httpOnly: false,
       'max-age': 31536000
     }, false);
-- name: PageView - Cookie Settings are overriden when setting the Click ID
-  code: |
+- name: PageView - tdclid_sn Click ID cookie is set if URL contains it
+  code: |-
+    setAllMockDataByEventType('pageView');
+
+    const expectedClickId = 'expectedClickId';
+    mock('getAllEventData', {
+      page_location: 'https://example.com/?utm_source=test&tdclid_sn=' + expectedClickId
+    });
+
+    runCode(mockData);
+
+    assertApi('gtmOnSuccess').wasCalled();
+    assertApi('gtmOnFailure').wasNotCalled();
+    assertApi('setCookie').wasCalledWith('tdclid_sn', expectedClickId, {
+      domain: 'auto',
+      samesite: 'Lax',
+      path: '/',
+      secure: true,
+      httpOnly: false,
+      'max-age': 31536000
+    }, false);
+- name: PageView - Cookies settings are overriden when setting the tduid and tdclid
+    Click IDs
+  code: |-
     const expectedCookieDomain = 'example.com';
     const expectedCookieExpirationInDays = 90;
     const expectedCookieHttpOnly = true;
@@ -1519,16 +1642,17 @@ scenarios:
       cookieHttpOnly: expectedCookieHttpOnly
     });
 
-    const expectedClickId = 'expectedClickId';
+    const expectedtduidClickId = 'expectedtduidClickId';
+    const expectedtdclidClickId = 'expectedtdclidClickId';
     mock('getAllEventData', {
-      page_location: 'https://example.com/?utm_source=test&tduid=' + expectedClickId
+      page_location: 'https://example.com/?utm_source=test&tduid=' + expectedtduidClickId + '&tdclid_sn=' + expectedtdclidClickId
     });
 
     runCode(mockData);
 
     assertApi('gtmOnSuccess').wasCalled();
     assertApi('gtmOnFailure').wasNotCalled();
-    assertApi('setCookie').wasCalledWith('tduid', expectedClickId, {
+    assertApi('setCookie').wasCalledWith('tduid', expectedtduidClickId, {
       domain: expectedCookieDomain,
       samesite: 'Lax',
       path: '/',
@@ -1536,6 +1660,22 @@ scenarios:
       httpOnly: expectedCookieHttpOnly,
       'max-age': 60 * 60 * 24 * expectedCookieExpirationInDays
     }, false);
+    assertApi('setCookie').wasCalledWith('tdclid_sn', expectedtdclidClickId, {
+      domain: expectedCookieDomain,
+      samesite: 'Lax',
+      path: '/',
+      secure: true,
+      httpOnly: expectedCookieHttpOnly,
+      'max-age': 60 * 60 * 24 * expectedCookieExpirationInDays
+    }, false);
+- name: User Data - Request is NOT sent if required parameters are missing
+  code: "setAllMockDataByEventType('userData');\n\nmock('sendHttpRequest', function()\
+    \ {\n  fail('Required parameter is missing. Request should not have been sent.');\n\
+    });\n\n[['organizationId'], ['userId', 'userEmail']].forEach(params => {\n  const\
+    \ originalMockDataCopy = JSON.parse(JSON.stringify(mockData));\n  \n  params.forEach(p\
+    \ => originalMockDataCopy[p] = undefined);\n\n  runCode(originalMockDataCopy);\n\
+    \  \n  assertApi('gtmOnFailure').wasCalled();\n  assertApi('gtmOnSuccess').wasNotCalled();\n\
+    });"
 - name: User Data - IP Address is correctly redacted if option is set
   code: |-
     setAllMockDataByEventType('userData', {
@@ -1555,31 +1695,24 @@ scenarios:
 
     assertApi('gtmOnSuccess').wasCalled();
     assertApi('gtmOnFailure').wasNotCalled();
-- name: User Data - Request is NOT sent if required parameters are missing
-  code: "setAllMockDataByEventType('userData');\n\nmock('sendHttpRequest', function()\
-    \ {\n  fail('Required parameter is missing. Request should not have been sent.');\n\
-    });\n\n[['organizationId'], ['userId', 'userEmail']].forEach(params => {\n  const\
-    \ originalMockDataCopy = JSON.parse(JSON.stringify(mockData));\n  \n  params.forEach(p\
-    \ => originalMockDataCopy[p] = undefined);\n\n  runCode(originalMockDataCopy);\n\
-    \  \n  assertApi('gtmOnFailure').wasCalled();\n  assertApi('gtmOnSuccess').wasNotCalled();\n\
-    });"
 - name: User Data - Request is sent - Data from UI fields fallbacks
   code: "mockData.type = 'userData';\nsetGetAllEventData();\n\nconst expectedRequestBaseUrl\
     \ = 'https://tbs.tradedoubler.com/user';\nconst expectedRequestOptions = { method:\
     \ 'GET', headers: {} };\n\n[\n  { /* userId and userEmail defined on Setup, should\
     \ use userEmail */ \n    expectedQueryParameters: {\n      organization: 'organizationId',\n\
     \      extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
-    \      exttype: '1'\n    } \n  },\n  { \n    mockData: { userId: undefined },\
-    \ \n    expectedQueryParameters: {\n      organization: 'organizationId',\n  \
-    \    extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
-    \      exttype: '1'\n    }\n  },\n  { \n    mockData: { userEmail: undefined },\
-    \ \n    expectedQueryParameters: {\n      organization: 'organizationId',\n  \
-    \    extid: 'fd14499abf2345243b9d48ce26e77f3e7c0f1117ee62a15c97340411b32c85ee',\n\
-    \      exttype: '0'\n    } \n  }\n].forEach(scenario => {\n  const originalMockDataCopy\
-    \ = JSON.parse(JSON.stringify(mockData));\n  \n  mergeObj(originalMockDataCopy,\
-    \ scenario.mockData);\n  \n  mock('sendHttpRequest', (requestUrl, callback, requestOptions)\
-    \ => {\n    const parsedRequestUrl = parseUrl(requestUrl);\n    assertThat(parsedRequestUrl.origin\
-    \ + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n    assertThat(parsedRequestUrl.searchParams).isEqualTo(scenario.expectedQueryParameters);\n\
+    \      exttype: '1',\n      convtagtid: '11'\n    } \n  },\n  { \n    mockData:\
+    \ { userId: undefined }, \n    expectedQueryParameters: {\n      organization:\
+    \ 'organizationId',\n      extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
+    \      exttype: '1',\n      convtagtid: '11'\n    }\n  },\n  { \n    mockData:\
+    \ { userEmail: undefined }, \n    expectedQueryParameters: {\n      organization:\
+    \ 'organizationId',\n      extid: 'fd14499abf2345243b9d48ce26e77f3e7c0f1117ee62a15c97340411b32c85ee',\n\
+    \      exttype: '0',\n      convtagtid: '11'\n    } \n  }\n].forEach(scenario\
+    \ => {\n  const originalMockDataCopy = JSON.parse(JSON.stringify(mockData));\n\
+    \  \n  mergeObj(originalMockDataCopy, scenario.mockData);\n  \n  mock('sendHttpRequest',\
+    \ (requestUrl, callback, requestOptions) => {\n    const parsedRequestUrl = parseUrl(requestUrl);\n\
+    \    assertThat(parsedRequestUrl.origin + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n\
+    \    assertThat(parsedRequestUrl.searchParams).isEqualTo(scenario.expectedQueryParameters);\n\
     \    assertThat(callback).isFunction();\n    assertThat(requestOptions).isEqualTo(expectedRequestOptions);\n\
     \    \n    callback(200);\n  });\n\n  runCode(originalMockDataCopy);\n  \n  assertApi('gtmOnSuccess').wasCalled();\n\
     \  assertApi('gtmOnFailure').wasNotCalled();\n});"
@@ -1589,14 +1722,14 @@ scenarios:
     \ 'GET', headers: {} };\n\n[\n  { /* userId and userEmail defined on Setup, should\
     \ use userEmail */ \n    expectedQueryParameters: {\n      organization: 'organizationId',\n\
     \      extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
-    \      exttype: '1',\n      deviceid: 'userDeviceId'\n    } \n  },\n  { \n   \
-    \ mockData: { userId: undefined }, \n    expectedQueryParameters: {\n      organization:\
-    \ 'organizationId',\n      extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
-    \      exttype: '1',\n      deviceid: 'userDeviceId'\n    }\n  },\n  { \n    mockData:\
-    \ { userEmail: undefined }, \n    expectedQueryParameters: {\n      organization:\
-    \ 'organizationId',\n      extid: 'fd14499abf2345243b9d48ce26e77f3e7c0f1117ee62a15c97340411b32c85ee',\n\
-    \      exttype: '0',\n      deviceid: 'userDeviceId'\n    } \n  }\n].forEach(scenario\
-    \ => {\n  const originalMockDataCopy = JSON.parse(JSON.stringify(mockData));\n\
+    \      exttype: '1',\n      deviceid: 'userDeviceId',\n      convtagtid: '11'\n\
+    \    } \n  },\n  { \n    mockData: { userId: undefined }, \n    expectedQueryParameters:\
+    \ {\n      organization: 'organizationId',\n      extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
+    \      exttype: '1',\n      deviceid: 'userDeviceId',\n      convtagtid: '11'\n\
+    \    }\n  },\n  { \n    mockData: { userEmail: undefined }, \n    expectedQueryParameters:\
+    \ {\n      organization: 'organizationId',\n      extid: 'fd14499abf2345243b9d48ce26e77f3e7c0f1117ee62a15c97340411b32c85ee',\n\
+    \      exttype: '0',\n      deviceid: 'userDeviceId',\n      convtagtid: '11'\n\
+    \    } \n  }\n].forEach(scenario => {\n  const originalMockDataCopy = JSON.parse(JSON.stringify(mockData));\n\
     \  \n  mergeObj(originalMockDataCopy, scenario.mockData);\n  \n  mock('sendHttpRequest',\
     \ (requestUrl, callback, requestOptions) => {\n    const parsedRequestUrl = parseUrl(requestUrl);\n\
     \    assertThat(parsedRequestUrl.origin + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n\
@@ -1626,9 +1759,9 @@ scenarios:
 - name: Conversion - Request is NOT sent if required parameters are missing (Leads)
   code: "setAllMockDataByEventType('conversion', {\n  conversionType: 'leads'\n});\n\
     \nmock('sendHttpRequest', function() {\n  fail('Required parameter is missing.\
-    \ Request should not have been sent.');\n});\n\n[['organizationId'], ['eventId'],\
-    \ ['leadOrOrderNumber']].forEach(params => {\n  const originalMockDataCopy = JSON.parse(JSON.stringify(mockData));\n\
-    \  \n  params.forEach(p => originalMockDataCopy[p] = undefined);\n  \n  runCode(originalMockDataCopy);\n\
+    \ Request should not have been sent.');\n});\n\n['organizationId', 'eventId',\
+    \ 'leadOrOrderNumber'].forEach(p => {\n  const originalMockDataCopy = JSON.parse(JSON.stringify(mockData));\n\
+    \  \n  originalMockDataCopy[p] = undefined;\n  \n  runCode(originalMockDataCopy);\n\
     \  \n  assertApi('gtmOnFailure').wasCalled();\n  assertApi('gtmOnSuccess').wasNotCalled();\n\
     });"
 - name: Conversion - Request is sent - Data from UI fields fallbacks (Leads)
@@ -1639,9 +1772,10 @@ scenarios:
     \ = {\n  organization: 'organizationId',\n  event: 'eventId',\n  ordervalue: '123.45',\n\
     \  leadnumber: 'transaction_id',\n  currency: 'BRL',\n  voucher: 'coupon',\n \
     \ extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
-    \  exttype: '1'\n};\n\nmock('sendHttpRequest', (requestUrl, callback, requestOptions)\
-    \ => {\n  const parsedRequestUrl = parseUrl(requestUrl);\n  assertThat(parsedRequestUrl.origin\
-    \ + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n  assertThat(parsedRequestUrl.searchParams).isEqualTo(expectedQueryParameters);\n\
+    \  exttype: '1',\n  convtagtid: '11'\n};\n\nmock('sendHttpRequest', (requestUrl,\
+    \ callback, requestOptions) => {\n  const parsedRequestUrl = parseUrl(requestUrl);\n\
+    \  assertThat(parsedRequestUrl.origin + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n\
+    \  assertThat(parsedRequestUrl.searchParams).isEqualTo(expectedQueryParameters);\n\
     \  assertThat(callback).isFunction();\n  assertThat(requestOptions).isEqualTo(expectedRequestOptions);\n\
     \  \n  callback(200);\n});\n\nrunCode(mockData);\n\nassertApi('gtmOnSuccess').wasCalled();\n\
     assertApi('gtmOnFailure').wasNotCalled();"
@@ -1651,10 +1785,10 @@ scenarios:
     const expectedRequestOptions = { method: 'GET', headers: {} };\nconst expectedQueryParameters\
     \ = {\n  organization: 'organizationId',\n  program: 'programId',\n  event: 'eventId',\n\
     \  ordervalue: 'orderValue',\n  leadnumber: 'leadOrOrderNumber',\n  tduid: 'tduidClickId',\n\
-    \  currency: 'currency',\n  voucher: 'voucher',\n  event_time: '2025-06-03 12:12:12',\n\
-    \  validOn: '2025-06-10',\n  checksum: 'checksum',\n  extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
-    \  exttype: '1',\n  deviceid: 'userDeviceId'\n};\n\nmock('sendHttpRequest', (requestUrl,\
-    \ callback, requestOptions) => {\n  const parsedRequestUrl = parseUrl(requestUrl);\n\
+    \  tdclid: 'tdclidClickId',\n  currency: 'currency',\n  voucher: 'voucher',\n\
+    \  event_time: '2025-06-03 12:12:12',\n  validOn: '2025-06-10',\n  extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
+    \  exttype: '1',\n  deviceid: 'userDeviceId',\n  convtagtid: '11'\n};\n\nmock('sendHttpRequest',\
+    \ (requestUrl, callback, requestOptions) => {\n  const parsedRequestUrl = parseUrl(requestUrl);\n\
     \  assertThat(parsedRequestUrl.origin + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n\
     \  assertThat(parsedRequestUrl.searchParams).isEqualTo(expectedQueryParameters);\n\
     \  assertThat(callback).isFunction();\n  assertThat(requestOptions).isEqualTo(expectedRequestOptions);\n\
@@ -1663,63 +1797,82 @@ scenarios:
 - name: Conversion - Request is NOT sent if required parameters are missing (Sales)
   code: "setAllMockDataByEventType('conversion', {\n  conversionType: 'sales'\n});\n\
     \nmock('sendHttpRequest', function() {\n  fail('Required parameter is missing.\
-    \ Request should not have been sent.');\n});\n\n\n[['organizationId'], ['eventId'],\
-    \ ['leadOrOrderNumber'], ['orderValue']].forEach(params => {\n  const originalMockDataCopy\
-    \ = JSON.parse(JSON.stringify(mockData));\n  \n  params.forEach(p => originalMockDataCopy[p]\
-    \ = undefined);\n  \n  runCode(originalMockDataCopy);\n  \n  assertApi('gtmOnFailure').wasCalled();\n\
+    \ Request should not have been sent.');\n});\n\n[\n  { organizationId: undefined\
+    \ },\n  { eventId: undefined },\n  { leadOrOrderNumber: undefined },\n  { orderValue:\
+    \ undefined, enablePLT: false },\n  { products: undefined, enablePLT: true },\n\
+    \  { products: [{ item_id: 'a', item_name: 'b', item_group_id: 'c', price: 1,\
+    \ quantity: undefined  }], enablePLT: true },\n  { products: [{ item_id: 'a',\
+    \ item_name: 'b', item_group_id: 'c', price: undefined, quantity: 1  }], enablePLT:\
+    \ true },\n  { products: [{ item_id: 'a', item_name: 'b', item_group_id: undefined,\
+    \ price: 1, quantity: 1  }], enablePLT: true },\n  { products: [{ item_id: 'a',\
+    \ item_name: undefined, item_group_id: 'c', price: 1, quantity: 1  }], enablePLT:\
+    \ true },\n  { products: [{ item_id: undefined, item_name: 'b', item_group_id:\
+    \ 'c', price: 1, quantity: 1  }], enablePLT: true },\n].forEach(mergeMockData\
+    \ => {\n  const originalMockDataCopy = JSON.parse(JSON.stringify(mockData));\n\
+    \  \n  for (const key in mergeMockData) {\n    originalMockDataCopy[key] = mergeMockData[key];\n\
+    \  }\n  \n  runCode(originalMockDataCopy);\n  \n  assertApi('gtmOnFailure').wasCalled();\n\
     \  assertApi('gtmOnSuccess').wasNotCalled();\n});"
 - name: Conversion - Request is sent - Data from UI fields fallbacks - PLT Disabled
     (Sales)
   code: "mockData.type = 'conversion';\nmockData.eventId = 'eventId';\nmockData.conversionType\
-    \ = 'sales';\nmockData.enablePLT = false;\n\nsetGetAllEventData({\n  transaction_id:\
-    \ 'transaction_id',\n  items: [\n    {\n      item_id: 'SKU_12345',\n      item_name:\
-    \ 'Stan and Friends Tee',\n      affiliation: 'Google Merchandise Store',\n  \
-    \    coupon: 'SUMMER_FUN',\n      discount: 2.22,\n      index: 0,\n      item_brand:\
-    \ 'Google',\n      item_category: 'Apparel|iajsdiajsd|oasodiasd',\n      item_list_id:\
-    \ 'related_products',\n      item_list_name: 'Related Products',\n      item_variant:\
-    \ 'green',\n      location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n      price: 10.01,\n\
-    \      quantity: 3\n    },\n    {\n      item_id: 'SKU_12346',\n      item_name:\
-    \ \"Google Grey Women's (Tee)\",\n      affiliation: 'Google Merchandise Store',\n\
-    \      coupon: 'SUMMER_FUN',\n      discount: 3.33,\n      index: 1,\n      item_brand:\
-    \ 'Google',\n      item_category: 'Apparel|iajsdiajsd|oasodiasd',\n      item_list_id:\
-    \ 'related_products',\n      item_list_name: 'Related Products',\n      item_variant:\
-    \ 'gray',\n      location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n      price: 21.01,\n\
-    \      promotion_id: 'P_12345',\n      promotion_name: 'Summer Sale',\n      quantity:\
-    \ 2\n    }\n  ]\n});\n\nconst expectedRequestBaseUrl = 'https://tbs.tradedoubler.com/report';\n\
+    \ = 'sales';\nmockData.enablePLT = false;\n\nmock('getCookieValues', (cookieName)\
+    \ => {\n  if (cookieName === 'tduid') return ['tduidClickId'];\n  else if (cookieName\
+    \ === 'tdclid_sn') return ['tdclidClickId'];\n  return [];\n});\n\n\nsetGetAllEventData({\n\
+    \  transaction_id: 'transaction_id',\n  items: [\n    {\n      item_id: 'SKU_12345',\n\
+    \      item_name: 'Stan and Friends Tee',\n      affiliation: 'Google Merchandise\
+    \ Store',\n      coupon: 'SUMMER_FUN',\n      discount: 2.22,\n      index: 0,\n\
+    \      item_brand: 'Google',\n      item_category: 'Apparel|iajsdiajsd|oasodiasd',\n\
+    \      item_list_id: 'related_products',\n      item_list_name: 'Related Products',\n\
+    \      item_variant: 'green',\n      location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n\
+    \      price: 10.01,\n      quantity: 3,\n      item_group_id: 'abc'\n    },\n\
+    \    {\n      item_id: 'SKU_12346',\n      item_name: \"Google Grey Women's (Tee)\"\
+    ,\n      affiliation: 'Google Merchandise Store',\n      coupon: 'SUMMER_FUN',\n\
+    \      discount: 3.33,\n      index: 1,\n      item_brand: 'Google',\n      item_category:\
+    \ 'Apparel|iajsdiajsd|oasodiasd',\n      item_list_id: 'related_products',\n \
+    \     item_list_name: 'Related Products',\n      item_variant: 'gray',\n     \
+    \ location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n      price: 21.01,\n      promotion_id:\
+    \ 'P_12345',\n      promotion_name: 'Summer Sale',\n      quantity: 2,\n     \
+    \ item_group_id: 'xyz'\n    }\n  ]\n});\n\nconst expectedRequestBaseUrl = 'https://tbs.tradedoubler.com/report';\n\
     const expectedRequestOptions = { method: 'GET', headers: {} };\nconst expectedQueryParameters\
     \ = {\n  organization: 'organizationId',\n  event: 'eventId',\n  ordervalue: '123.45',\n\
     \  ordernumber: 'transaction_id',\n  currency: 'BRL',\n  voucher: 'coupon',\n\
     \  extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
-    \  exttype: '1',\n  reportInfo: \"f1=SKU_12345&f2=Stan and Friends Tee&f3=10.01&f4=3|f1=SKU_12346&f2=Google\
+    \  exttype: '1',\n  tduid: 'tduidClickId',\n  tdclid: 'tdclidClickId',\n  convtagtid:\
+    \ '11',\n  reportInfo: \"f1=SKU_12345&f2=Stan and Friends Tee&f3=10.01&f4=3|f1=SKU_12346&f2=Google\
     \ Grey Women's (Tee)&f3=21.01&f4=2\"\n};\n\nmock('sendHttpRequest', (requestUrl,\
     \ callback, requestOptions) => {\n  const parsedRequestUrl = parseUrl(requestUrl);\n\
     \  assertThat(parsedRequestUrl.origin + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n\
     \  assertThat(parsedRequestUrl.searchParams).isEqualTo(expectedQueryParameters);\n\
+    \  const reportInfoIsLastParameter = !!requestUrl.split('&reportInfo=')[1];\n\
+    \  assertThat(reportInfoIsLastParameter, 'reportInfo must be the last parameter').isTrue();\n\
     \  assertThat(callback).isFunction();\n  assertThat(requestOptions).isEqualTo(expectedRequestOptions);\n\
     \  \n  callback(200);\n});\n\nrunCode(mockData);\n\nassertApi('gtmOnSuccess').wasCalled();\n\
     assertApi('gtmOnFailure').wasNotCalled();"
 - name: Conversion - Request is sent - Data from UI fields fallbacks - PLT Enabled
     (Sales)
   code: "mockData.type = 'conversion';\nmockData.eventId = 'eventId';\nmockData.conversionType\
-    \ = 'sales';\nmockData.enablePLT = true;\n\nsetGetAllEventData({\n  transaction_id:\
-    \ 'transaction_id',\n  items: [\n    {\n      item_id: 'SKU_12345',\n      item_name:\
-    \ 'Stan and Friends Tee',\n      affiliation: 'Google Merchandise Store',\n  \
-    \    coupon: 'SUMMER_FUN',\n      discount: 2.22,\n      index: 0,\n      item_brand:\
-    \ 'Google',\n      item_category: 'Apparel|iajsdiajsd|oasodiasd',\n      item_list_id:\
-    \ 'related_products',\n      item_list_name: 'Related Products',\n      item_variant:\
-    \ 'green',\n      location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n      price: 10.01,\n\
-    \      quantity: 3\n    },\n    {\n      item_id: 'SKU_12346',\n      item_name:\
-    \ \"Google Grey Women's (Tee)\",\n      affiliation: 'Google Merchandise Store',\n\
-    \      coupon: 'SUMMER_FUN',\n      discount: 3.33,\n      index: 1,\n      item_brand:\
-    \ 'Google',\n      item_category: 'Apparel|iajsdiajsd|oasodiasd',\n      item_list_id:\
-    \ 'related_products',\n      item_list_name: 'Related Products',\n      item_variant:\
-    \ 'gray',\n      location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n      price: 21.01,\n\
-    \      promotion_id: 'P_12345',\n      promotion_name: 'Summer Sale',\n      quantity:\
-    \ 2\n    }\n  ]\n});\n\nconst expectedRequestBaseUrl = 'https://tbs.tradedoubler.com/report';\n\
+    \ = 'sales';\nmockData.enablePLT = true;\n\nmock('getCookieValues', (cookieName)\
+    \ => {\n  if (cookieName === 'tduid') return ['tduidClickId'];\n  else if (cookieName\
+    \ === 'tdclid_sn') return ['tdclidClickId'];\n  return [];\n});\n\nsetGetAllEventData({\n\
+    \  transaction_id: 'transaction_id',\n  items: [\n    {\n      item_id: 'SKU_12345',\n\
+    \      item_name: 'Stan and Friends Tee',\n      affiliation: 'Google Merchandise\
+    \ Store',\n      coupon: 'SUMMER_FUN',\n      discount: 2.22,\n      index: 0,\n\
+    \      item_brand: 'Google',\n      item_category: 'Apparel|iajsdiajsd|oasodiasd',\n\
+    \      item_list_id: 'related_products',\n      item_list_name: 'Related Products',\n\
+    \      item_variant: 'green',\n      location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n\
+    \      price: 10.01,\n      quantity: 3,\n      item_group_id: 'abc'\n    },\n\
+    \    {\n      item_id: 'SKU_12346',\n      item_name: \"Google Grey Women's (Tee)\"\
+    ,\n      affiliation: 'Google Merchandise Store',\n      coupon: 'SUMMER_FUN',\n\
+    \      discount: 3.33,\n      index: 1,\n      item_brand: 'Google',\n      item_category:\
+    \ 'Apparel|iajsdiajsd|oasodiasd',\n      item_list_id: 'related_products',\n \
+    \     item_list_name: 'Related Products',\n      item_variant: 'gray',\n     \
+    \ location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n      price: 21.01,\n      promotion_id:\
+    \ 'P_12345',\n      promotion_name: 'Summer Sale',\n      quantity: 2,\n     \
+    \ item_group_id: 'xyz'\n    }\n  ]\n});\n\nconst expectedRequestBaseUrl = 'https://tbs.tradedoubler.com/report';\n\
     const expectedRequestOptions = { method: 'GET', headers: {} };\n\nmock('sendHttpRequest',\
     \ (requestUrl, callback, requestOptions) => {\n  const parsedRequestUrl = parseUrl(requestUrl);\n\
     \  assertThat(parsedRequestUrl.origin + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n\
-    \  assertThat(parsedRequestUrl.search).isEqualTo(\"?o(organizationId)event(eventId)ordervalue(123.45)ordnum(transaction_id)curr(BRL)voucher(coupon)basket(pr(i(SKU_12345)n(Stan%20and%20Friends%20Tee)gr(undefined)v(10.01)q(3))pr(i(SKU_12346)n(Google%20Grey%20Women%27s%20)gr(undefined)v(21.01)q(2)))enc(3)extid(27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462)exttype(1)\"\
+    \  assertThat(parsedRequestUrl.search).isEqualTo(\"?o(organizationId)convtagtid(11)event(eventId)ordervalue(123.45)ordnum(transaction_id)tduid(tduidClickId)tdclid(tdclidClickId)curr(BRL)voucher(coupon)basket(pr(i(SKU_12345)n(Stan%20and%20Friends%20Tee)gr(abc)v(10.01)q(3))pr(i(SKU_12346)n(Google%20Grey%20Women%27s%20)gr(xyz)v(21.01)q(2)))enc(3)extid(27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462)exttype(1)\"\
     );\n  assertThat(callback).isFunction();\n  assertThat(requestOptions).isEqualTo(expectedRequestOptions);\n\
     \  \n  callback(200);\n});\n\nrunCode(mockData);\n\nassertApi('gtmOnSuccess').wasCalled();\n\
     assertApi('gtmOnFailure').wasNotCalled();"
@@ -1729,13 +1882,16 @@ scenarios:
     const expectedRequestOptions = { method: 'GET', headers: {} };\nconst expectedQueryParameters\
     \ = {\n  organization: 'organizationId',\n  program: 'programId',\n  event: 'eventId',\n\
     \  ordervalue: 'orderValue',\n  ordernumber: 'leadOrOrderNumber',\n  tduid: 'tduidClickId',\n\
-    \  currency: 'currency',\n  voucher: 'voucher',\n  event_time: '2025-06-03 12:12:12',\n\
-    \  validOn: '2025-06-10',\n  checksum: 'checksum',\n  extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
-    \  exttype: '1',\n  deviceid: 'userDeviceId',\n  reportInfo: \"f1=SKU_12345&f2=Stan\
-    \ and Friends Tee&f3=10.01&f4=3|f1=SKU_12346&f2=Google Grey Women's (Tee)&f3=21.01&f4=2\"\
-    \n};\n\nmock('sendHttpRequest', (requestUrl, callback, requestOptions) => {\n\
-    \  const parsedRequestUrl = parseUrl(requestUrl);\n  assertThat(parsedRequestUrl.origin\
-    \ + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n  assertThat(parsedRequestUrl.searchParams).isEqualTo(expectedQueryParameters);\n\
+    \  tdclid: 'tdclidClickId',\n  currency: 'currency',\n  voucher: 'voucher',\n\
+    \  event_time: '2025-06-03 12:12:12',\n  validOn: '2025-06-10',\n  extid: '27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462',\n\
+    \  exttype: '1',\n  deviceid: 'userDeviceId',\n  convtagtid: '11',\n  reportInfo:\
+    \ \"f1=SKU_12345&f2=Stan and Friends Tee&f3=10.01&f4=3|f1=SKU_12346&f2=Google\
+    \ Grey Women's (Tee)&f3=21.01&f4=2\"\n};\n\nmock('sendHttpRequest', (requestUrl,\
+    \ callback, requestOptions) => {\n  const parsedRequestUrl = parseUrl(requestUrl);\n\
+    \  assertThat(parsedRequestUrl.origin + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n\
+    \  assertThat(parsedRequestUrl.searchParams).isEqualTo(expectedQueryParameters);\n\
+    \  const reportInfoIsLastParameter = !!requestUrl.split('&reportInfo=')[1];\n\
+    \  assertThat(reportInfoIsLastParameter, 'reportInfo must be the last parameter').isTrue();\n\
     \  assertThat(callback).isFunction();\n  assertThat(requestOptions).isEqualTo(expectedRequestOptions);\n\
     \  \n  callback(200);\n});\n\nrunCode(mockData);\n\nassertApi('gtmOnSuccess').wasCalled();\n\
     assertApi('gtmOnFailure').wasNotCalled();"
@@ -1747,18 +1903,19 @@ scenarios:
     \ 'Google',\n      item_category: 'Apparel|iajsdiajsd|oasodiasd',\n      item_list_id:\
     \ 'related_products',\n      item_list_name: 'Related Products',\n      item_variant:\
     \ 'green',\n      location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n      price: 10.01,\n\
-    \      quantity: 3\n    },\n    {\n      item_id: 'SKU_12346',\n      item_name:\
-    \ \"Google Grey Women's (Tee)\",\n      affiliation: 'Google Merchandise Store',\n\
-    \      coupon: 'SUMMER_FUN',\n      discount: 3.33,\n      index: 1,\n      item_brand:\
-    \ 'Google',\n      item_category: 'Apparel|iajsdiajsd|oasodiasd',\n      item_list_id:\
-    \ 'related_products',\n      item_list_name: 'Related Products',\n      item_variant:\
-    \ 'gray',\n      location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n      price: 21.01,\n\
-    \      promotion_id: 'P_12345',\n      promotion_name: 'Summer Sale',\n      quantity:\
-    \ 2\n    }\n  ]\n});\n\nconst expectedRequestBaseUrl = 'https://tbs.tradedoubler.com/report';\n\
-    const expectedRequestOptions = { method: 'GET', headers: {} };\n\nmock('sendHttpRequest',\
-    \ (requestUrl, callback, requestOptions) => {\n  const parsedRequestUrl = parseUrl(requestUrl);\n\
-    \  assertThat(parsedRequestUrl.origin + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n\
-    \  assertThat(parsedRequestUrl.search).isEqualTo(\"?o(organizationId)p(programId)event(eventId)ordervalue(orderValue)ordnum(leadOrOrderNumber)tduid(tduidClickId)curr(currency)voucher(voucher)event_time(2025-06-03%2012%3A12%3A12)chksum(checksum)basket(pr(i(SKU_12345)n(Stan%20and%20Friends%20Tee)gr(undefined)v(10.01)q(3))pr(i(SKU_12346)n(Google%20Grey%20Women%27s%20)gr(undefined)v(21.01)q(2)))enc(3)extid(27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462)exttype(1)deviceid(userDeviceId)\"\
+    \      quantity: 3,\n      item_group_id: 'abc'\n    },\n    {\n      item_id:\
+    \ 'SKU_12346',\n      item_name: \"Google Grey Women's (Tee)\",\n      affiliation:\
+    \ 'Google Merchandise Store',\n      coupon: 'SUMMER_FUN',\n      discount: 3.33,\n\
+    \      index: 1,\n      item_brand: 'Google',\n      item_category: 'Apparel|iajsdiajsd|oasodiasd',\n\
+    \      item_list_id: 'related_products',\n      item_list_name: 'Related Products',\n\
+    \      item_variant: 'gray',\n      location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n\
+    \      price: 21.01,\n      promotion_id: 'P_12345',\n      promotion_name: 'Summer\
+    \ Sale',\n      quantity: 2,\n      item_group_id: 'xyz'\n    }\n  ]\n});\n\n\
+    const expectedRequestBaseUrl = 'https://tbs.tradedoubler.com/report';\nconst expectedRequestOptions\
+    \ = { method: 'GET', headers: {} };\n\nmock('sendHttpRequest', (requestUrl, callback,\
+    \ requestOptions) => {\n  const parsedRequestUrl = parseUrl(requestUrl);\n  assertThat(parsedRequestUrl.origin\
+    \ + parsedRequestUrl.pathname).isEqualTo(expectedRequestBaseUrl);\n  assertThat(parsedRequestUrl.search).isEqualTo(\"\
+    ?o(organizationId)convtagtid(11)p(programId)event(eventId)ordervalue(orderValue)ordnum(leadOrOrderNumber)tduid(tduidClickId)tdclid(tdclidClickId)curr(currency)voucher(voucher)event_time(2025-06-03%2012%3A12%3A12)basket(pr(i(SKU_12345)n(Stan%20and%20Friends%20Tee)gr(abc)v(10.01)q(3))pr(i(SKU_12346)n(Google%20Grey%20Women%27s%20)gr(xyz)v(21.01)q(2)))enc(3)extid(27c6b8e780cfc293ef0436f7d8421af0bed83caae706734b49f8e95d5295b462)exttype(1)deviceid(userDeviceId)\"\
     );\n  assertThat(callback).isFunction();\n  assertThat(requestOptions).isEqualTo(expectedRequestOptions);\n\
     \  \n  callback(200);\n});\n\nrunCode(mockData);\n\nassertApi('gtmOnSuccess').wasCalled();\n\
     assertApi('gtmOnFailure').wasNotCalled();"
@@ -1883,36 +2040,36 @@ setup: "const JSON = require('JSON');\nconst Promise = require('Promise');\ncons
   \  logBigQueryDatasetId: expectedBigQuerySettings.logBigQueryDatasetId,\n  logBigQueryTableId:\
   \ expectedBigQuerySettings.logBigQueryTableId\n};\n\nconst setAllMockDataByEventType\
   \ = (type, objToBeMerged) => {\n  const mockDataByEventType = {\n    pageView: {\n\
-  \      type: 'pageView',\n      clickIdParameterName: 'tduid',\n      cookieDomain:\
-  \ 'auto',\n      cookieExpiration: 365,\n      cookieHttpOnly: false\n    },\n \
-  \   userData: {\n      type: 'userData',\n      redactIpAddress: false,\n      userId:\
-  \ 'userId',\n      userEmail: 'userEmail',\n      userDeviceId: 'userDeviceId'\n\
-  \    },\n    conversion: {\n      type: 'conversion',\n      redactIpAddress: false,\n\
-  \      userId: 'userId',\n      userEmail: 'userEmail',\n      userDeviceId: 'userDeviceId',\n\
-  \      conversionType: 'sales',\n      programId: 'programId',\n      eventId: 'eventId',\n\
-  \      tduidClickId: 'tduidClickId',\n      leadOrOrderNumber: 'leadOrOrderNumber',\n\
+  \      type: 'pageView',\n      tduidClickIdParameterName: 'tduid',\n      tdclidClickIdParameterName:\
+  \ 'tdclid_sn',\n      cookieDomain: 'auto',\n      cookieExpiration: 365,\n    \
+  \  cookieHttpOnly: false\n    },\n    userData: {\n      type: 'userData',\n   \
+  \   redactIpAddress: false,\n      userId: 'userId',\n      userEmail: 'userEmail',\n\
+  \      userDeviceId: 'userDeviceId'\n    },\n    conversion: {\n      type: 'conversion',\n\
+  \      redactIpAddress: false,\n      userId: 'userId',\n      userEmail: 'userEmail',\n\
+  \      userDeviceId: 'userDeviceId',\n      conversionType: 'sales',\n      programId:\
+  \ 'programId',\n      eventId: 'eventId',\n      tduidClickId: 'tduidClickId',\n\
+  \      tdclidClickId: 'tdclidClickId',\n      leadOrOrderNumber: 'leadOrOrderNumber',\n\
   \      orderValue: 'orderValue',\n      currency: 'currency',\n      voucher: 'voucher',\n\
-  \      eventTime: '2025-06-03 12:12:12',\n      validOn: '2025-06-10',\n      checksum:\
-  \ 'checksum',\n      enablePLT: false,\n      products: [\n        {\n         \
-  \ item_id: 'SKU_12345',\n          item_name: 'Stan and Friends Tee',\n        \
-  \  affiliation: 'Google Merchandise Store',\n          coupon: 'SUMMER_FUN',\n \
-  \         discount: 2.22,\n          index: 0,\n          item_brand: 'Google',\n\
-  \          item_category: 'Apparel|iajsdiajsd|oasodiasd',\n          item_list_id:\
-  \ 'related_products',\n          item_list_name: 'Related Products',\n         \
-  \ item_variant: 'green',\n          location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n\
-  \          price: 10.01,\n          quantity: 3\n        },\n        {\n       \
-  \   item_id: 'SKU_12346',\n          item_name: \"Google Grey Women's (Tee)\",\n\
-  \          affiliation: 'Google Merchandise Store',\n          coupon: 'SUMMER_FUN',\n\
-  \          discount: 3.33,\n          index: 1,\n          item_brand: 'Google',\n\
-  \          item_category: 'Apparel|iajsdiajsd|oasodiasd',\n          item_list_id:\
-  \ 'related_products',\n          item_list_name: 'Related Products',\n         \
-  \ item_variant: 'gray',\n          location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n\
+  \      eventTime: '2025-06-03 12:12:12',\n      validOn: '2025-06-10',\n      enablePLT:\
+  \ false,\n      products: [\n        {\n          item_id: 'SKU_12345',\n      \
+  \    item_name: 'Stan and Friends Tee',\n          affiliation: 'Google Merchandise\
+  \ Store',\n          coupon: 'SUMMER_FUN',\n          discount: 2.22,\n        \
+  \  index: 0,\n          item_brand: 'Google',\n          item_category: 'Apparel|iajsdiajsd|oasodiasd',\n\
+  \          item_list_id: 'related_products',\n          item_list_name: 'Related\
+  \ Products',\n          item_variant: 'green',\n          location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n\
+  \          price: 10.01,\n          quantity: 3,\n          item_group_id: 'abc'\n\
+  \        },\n        {\n          item_id: 'SKU_12346',\n          item_name: \"\
+  Google Grey Women's (Tee)\",\n          affiliation: 'Google Merchandise Store',\n\
+  \          coupon: 'SUMMER_FUN',\n          discount: 3.33,\n          index: 1,\n\
+  \          item_brand: 'Google',\n          item_category: 'Apparel|iajsdiajsd|oasodiasd',\n\
+  \          item_list_id: 'related_products',\n          item_list_name: 'Related\
+  \ Products',\n          item_variant: 'gray',\n          location_id: 'ChIJIQBpAG2ahYAR_6128GcTUEo',\n\
   \          price: 21.01,\n          promotion_id: 'P_12345',\n          promotion_name:\
-  \ 'Summer Sale',\n          quantity: 2\n        }\n      ]\n    }\n  };\n  \n \
-  \ mergeObj(mockDataByEventType[type], objToBeMerged || {});\n  mergeObj(mockData,\
-  \ mockDataByEventType[type]);\n};\n\nmock('getRequestHeader', (header) => {\n  if\
-  \ (header === 'trace-id') return 'expectedTraceId';\n});\n\nmock('getTimestampMillis',\
-  \ 1747945830456);"
+  \ 'Summer Sale',\n          quantity: 2,\n          item_group_id: 'xyz'\n     \
+  \   }\n      ]\n    }\n  };\n  \n  mergeObj(mockDataByEventType[type], objToBeMerged\
+  \ || {});\n  mergeObj(mockData, mockDataByEventType[type]);\n};\n\nmock('getRequestHeader',\
+  \ (header) => {\n  if (header === 'trace-id') return 'expectedTraceId';\n});\n\n\
+  mock('getTimestampMillis', 1747945830456);"
 
 
 ___NOTES___
