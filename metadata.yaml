@@ -1,4 +1,5 @@
 homepage: 'https://stape.io/'
+documentation: 'https://github.com/stape-io/tradedoubler-tag'
 versions:
   - sha: 1b9345e4d862fddb82166cd9c290962353692c43
     changeNotes: Add thumbnail.
