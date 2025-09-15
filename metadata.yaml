@@ -1,6 +1,8 @@
 homepage: 'https://stape.io/'
 documentation: 'https://github.com/stape-io/tradedoubler-tag'
 versions:
+  - sha: 5281cf52db2aa5aded3d9ac8573efab26b75156d
+    changeNotes: Rename the tag.
   - sha: 1b9345e4d862fddb82166cd9c290962353692c43
     changeNotes: Add thumbnail.
   - sha: 27cf2fd840f246c8a52c6543df1593ca00b1e67b
