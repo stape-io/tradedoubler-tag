@@ -61,6 +61,10 @@ The **Tradedoubler Tag for GTM Server-Side** enables server-to-server (S2S) trac
 - 🛍️ **Detailed Reporting** — Support for order-level and product-level revenue tracking.
 - ⚡ **Fast Execution** — Optional optimistic scenario for quicker tag completion.
 
+## Useful links:
+
+- [Step-by-step guide on how to configure Tradedoubler Tag](https://stape.io/helpdesk/documentation/tradedoubler-tag)
+
 ## Open Source
 
 The **Tradedoubler Tag for GTM Server-Side** is developed and maintained by the [Stape Team](https://stape.io/) under the Apache 2.0 license.
