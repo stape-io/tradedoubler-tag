@@ -1,4 +1,4 @@
-___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -34,82 +34,90 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
-    "type": "RADIO",
-    "name": "type",
-    "displayName": "Event Type",
-    "radioItems": [
+    "type": "GROUP",
+    "name": "configGroup",
+    "displayName": "",
+    "groupStyle": "NO_ZIPPY",
+    "subParams": [
       {
-        "value": "pageView",
-        "displayValue": "Page View"
+        "type": "RADIO",
+        "name": "type",
+        "displayName": "Event Type",
+        "radioItems": [
+          {
+            "value": "pageView",
+            "displayValue": "Page View"
+          },
+          {
+            "value": "userData",
+            "displayValue": "User Data"
+          },
+          {
+            "value": "conversion",
+            "displayValue": "Conversion"
+          }
+        ],
+        "simpleValueType": true,
+        "defaultValue": "pageView",
+        "help": "\u003cb\u003ePage View\u003c/b\u003e - Stores the \u003ci\u003e{tduid}\u003c/i\u003e or \u003ci\u003edeviceid\u003c/i\u003e URL parameters value inside the \u003ci\u003etduid\u003c/i\u003e cookie; and the \u003ci\u003e{tdclid_sn}\u003c/i\u003e URL parameter value inside the \u003ci\u003etdclid_sn\u003c/i\u003e cookie.\n\u003cbr/\u003e\nFor app conversions, you need to store and retrieve the Click ID using some other method, such as:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#how-to-use-the-stape-store-writer-tag\"\u003eStape Store Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#stape-store-lookup-variable\"\u003eStape Store Lookup variable\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/blog/write-data-to-firestore-from-server-google-tag-manager\"\u003eFirestore Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/solutions/firestore-restore-variable\"\u003eFirestore Restore ariable\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr/\u003e\n\u003cbr/\u003e\n\u003cb\u003eConversion\u003c/b\u003e - Sends a postback with conversion data to Tradedoubler.\n\u003cbr/\u003e\n\u003cbr/\u003e\n\u003cb\u003eUser Data\u003c/b\u003e - Sends a request containing User Data (email or User ID). You can use this event if you don\u0027t have User Data available when the conversion happens. \u003ca href\u003d\"https://dev.tradedoubler.com/crossdevice/advertiser/#API\"\u003eLearn more\u003c/a\u003e."
       },
       {
-        "value": "userData",
-        "displayValue": "User Data"
+        "type": "TEXT",
+        "name": "organizationId",
+        "displayName": "Organization ID",
+        "simpleValueType": true,
+        "help": "Your Organization ID as provided by Tradedoubler.\n\u003cbr\u003e\u003cbr\u003e\nThe Organization ID can be replaced by a Program ID and Publisher site ID combination if required. Your Tradedoubler contact can explain this further.\n\u003cbr\u003e\n\u003cbr\u003e\nYou can get it from Tradedoubler website under \u003ci\u003e\"My Programs\" -\u003e \"Tracking Set-up\" -\u003e \"Tracking Information\"\u003c/i\u003e.",
+        "valueValidators": [
+          {
+            "type": "NON_EMPTY"
+          },
+          {
+            "type": "POSITIVE_NUMBER"
+          }
+        ],
+        "enablingConditions": [
+          {
+            "paramName": "type",
+            "paramValue": "userData",
+            "type": "EQUALS"
+          },
+          {
+            "paramName": "type",
+            "paramValue": "conversion",
+            "type": "EQUALS"
+          }
+        ]
       },
       {
-        "value": "conversion",
-        "displayValue": "Conversion"
-      }
-    ],
-    "simpleValueType": true,
-    "defaultValue": "pageView",
-    "help": "\u003cb\u003ePage View\u003c/b\u003e - Stores the \u003ci\u003e{tduid}\u003c/i\u003e or \u003ci\u003edeviceid\u003c/i\u003e URL parameters value inside the \u003ci\u003etduid\u003c/i\u003e cookie; and the \u003ci\u003e{tdclid_sn}\u003c/i\u003e URL parameter value inside the \u003ci\u003etdclid_sn\u003c/i\u003e cookie.\n\u003cbr/\u003e\nFor app conversions, you need to store and retrieve the Click ID using some other method, such as:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#how-to-use-the-stape-store-writer-tag\"\u003eStape Store Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/helpdesk/documentation/stape-store-feature#stape-store-lookup-variable\"\u003eStape Store Lookup variable\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stape.io/blog/write-data-to-firestore-from-server-google-tag-manager\"\u003eFirestore Writer tag\u003c/a\u003e and \u003ca href\u003d\"https://stape.io/solutions/firestore-restore-variable\"\u003eFirestore Restore ariable\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr/\u003e\n\u003cbr/\u003e\n\u003cb\u003eConversion\u003c/b\u003e - Sends a postback with conversion data to Tradedoubler.\n\u003cbr/\u003e\n\u003cbr/\u003e\n\u003cb\u003eUser Data\u003c/b\u003e - Sends a request containing User Data (email or User ID). You can use this event if you don\u0027t have User Data available when the conversion happens. \u003ca href\u003d\"https://dev.tradedoubler.com/crossdevice/advertiser/#API\"\u003eLearn more\u003c/a\u003e."
-  },
-  {
-    "type": "TEXT",
-    "name": "organizationId",
-    "displayName": "Organization ID",
-    "simpleValueType": true,
-    "help": "Your Organization ID as provided by Tradedoubler.\n\u003cbr\u003e\u003cbr\u003e\nThe Organization ID can be replaced by a Program ID and Publisher site ID combination if required. Your Tradedoubler contact can explain this further.\n\u003cbr\u003e\n\u003cbr\u003e\nYou can get it from Tradedoubler website under \u003ci\u003e\"My Programs\" -\u003e \"Tracking Set-up\" -\u003e \"Tracking Information\"\u003c/i\u003e.",
-    "valueValidators": [
-      {
-        "type": "NON_EMPTY"
-      },
-      {
-        "type": "POSITIVE_NUMBER"
-      }
-    ],
-    "enablingConditions": [
-      {
-        "paramName": "type",
-        "paramValue": "userData",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "type",
-        "paramValue": "conversion",
-        "type": "EQUALS"
-      }
-    ]
-  },
-  {
-    "type": "SELECT",
-    "name": "useOptimisticScenario",
-    "displayName": "Use Optimistic Scenario",
-    "macrosInSelect": true,
-    "selectItems": [
-      {
-        "value": true,
-        "displayValue": "true"
-      },
-      {
-        "value": false,
-        "displayValue": "false"
-      }
-    ],
-    "simpleValueType": true,
-    "help": "The tag will call gtmOnSuccess() without waiting for a response from the API. This will speed up sGTM response time however your tag will always return the status fired successfully even in case it is not.",
-    "defaultValue": false,
-    "enablingConditions": [
-      {
-        "paramName": "type",
-        "paramValue": "userData",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "type",
-        "paramValue": "conversion",
-        "type": "EQUALS"
+        "type": "SELECT",
+        "name": "useOptimisticScenario",
+        "displayName": "Use Optimistic Scenario",
+        "macrosInSelect": true,
+        "selectItems": [
+          {
+            "value": true,
+            "displayValue": "true"
+          },
+          {
+            "value": false,
+            "displayValue": "false"
+          }
+        ],
+        "simpleValueType": true,
+        "help": "The tag will call gtmOnSuccess() without waiting for a response from the API. This will speed up sGTM response time however your tag will always return the status fired successfully even in case it is not.",
+        "defaultValue": false,
+        "enablingConditions": [
+          {
+            "paramName": "type",
+            "paramValue": "userData",
+            "type": "EQUALS"
+          },
+          {
+            "paramName": "type",
+            "paramValue": "conversion",
+            "type": "EQUALS"
+          }
+        ]
       }
     ]
   },
@@ -430,14 +438,13 @@ ___TEMPLATE_PARAMETERS___
   },
   {
     "type": "GROUP",
-    "name": "consentSettingsGroup",
-    "displayName": "Consent Settings",
+    "name": "tagExecutionConsentSettingsGroup",
+    "displayName": "Tag Execution Consent Settings",
     "groupStyle": "ZIPPY_CLOSED",
     "subParams": [
       {
         "type": "RADIO",
         "name": "adStorageConsent",
-        "displayName": "",
         "radioItems": [
           {
             "value": "optional",
@@ -445,7 +452,8 @@ ___TEMPLATE_PARAMETERS___
           },
           {
             "value": "required",
-            "displayValue": "Send data in case marketing consent given"
+            "displayValue": "Send data in case marketing consent given",
+            "help": "Aborts the tag execution if marketing consent (\u003ci\u003ead_storage\u003c/i\u003e Google Consent Mode or Stape\u0027s Data Tag parameter) is not given."
           }
         ],
         "simpleValueType": true,
@@ -1076,7 +1084,7 @@ function isValidValue(value) {
 }
 
 function enc(data) {
-  if (data === undefined || data === null) data = '';
+  if (['null', 'undefined'].indexOf(getType(data)) !== -1) data = '';
   return encodeUriComponent(makeString(data));
 }
 
@@ -2076,4 +2084,3 @@ setup: "const JSON = require('JSON');\nconst Promise = require('Promise');\ncons
 ___NOTES___
 
 Created on 6/4/2025, 11:25:14 AM
-

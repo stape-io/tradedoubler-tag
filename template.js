@@ -497,7 +497,7 @@ function isValidValue(value) {
 }
 
 function enc(data) {
-  if (data === undefined || data === null) data = '';
+  if (['null', 'undefined'].indexOf(getType(data)) !== -1) data = '';
   return encodeUriComponent(makeString(data));
 }
 
