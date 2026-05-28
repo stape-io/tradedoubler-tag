@@ -1,6 +1,8 @@
 homepage: 'https://stape.io/'
 documentation: 'https://github.com/stape-io/tradedoubler-tag'
 versions:
+  - sha: 66e7beaabaf4cbe8f12f2219862806f81a22ed57
+    changeNotes: Logging removal.
   - sha: 8a9b828960b3f8a252141741b018aa73cf222fe4
     changeNotes: Update consent section.
   - sha: 5281cf52db2aa5aded3d9ac8573efab26b75156d
