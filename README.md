@@ -25,9 +25,6 @@ The **Tradedoubler Tag for GTM Server-Side** enables server-to-server (S2S) trac
    - Optionally provide **Currency**, **Voucher**, **Product List**, and Click IDs (`tduid`, `tdclid_sn`).
    - Enable **Product Level Tracking (PLT)** for sending detailed product information.
 6. Configure **Consent Settings** to control whether data is sent always or only if marketing consent is given.
-7. Optionally enable **Logging**:
-   - Console logs during preview/debug or always.
-   - BigQuery logs for storing event data in your Google Cloud project.
 
 ## Required Fields
 
@@ -61,7 +58,7 @@ The **Tradedoubler Tag for GTM Server-Side** enables server-to-server (S2S) trac
 - 🛍️ **Detailed Reporting** — Support for order-level and product-level revenue tracking.
 - ⚡ **Fast Execution** — Optional optimistic scenario for quicker tag completion.
 
-## Useful links:
+## Useful Resources
 
 - [Step-by-step guide on how to configure Tradedoubler Tag](https://stape.io/helpdesk/documentation/tradedoubler-tag)
 
